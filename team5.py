@@ -7,15 +7,13 @@
 ####
 
 team_name = 'Team 5' # Only 10 chars displayed.
-strategy_name = 'Screw over'
-strategy_description = 'you betray, they collude'
+strategy_name = 'collude'
+strategy_description = 'collude'
     
 def move(my_history, their_history, my_score, their_score):
     ''' Arguments accepted: my_history, their_history are strings.
     my_score, their_score are ints.
     
-   
-    my_history:
 
     # my_history: a string with one letter (c or b) per round that has been played with this opponent.
     # their_history: a string of the same length as history, possibly empty. 
@@ -46,7 +44,7 @@ def test_move(my_history, their_history, my_score, their_score, result):
 
 if __name__ == '__main__':
      
-    # Test 1: Betray on first move.
+     Test 1: Betray on first move.
     if test_move(my_history='',
               their_history='', 
               my_score=0,
